@@ -1,0 +1,3118 @@
+fileFormatVersion: 2
+guid: 220c6ad4109b55c4ab9f94963793d0f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3953043970621482223
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_0
+  - first:
+      213: 466220483854131698
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_1
+  - first:
+      213: 8994019333657397974
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_2
+  - first:
+      213: -5016899523232605625
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_3
+  - first:
+      213: -8793633869888136922
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_4
+  - first:
+      213: -1837935953112376387
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_5
+  - first:
+      213: 204424662270276373
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_6
+  - first:
+      213: 8714154924585780774
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_7
+  - first:
+      213: -7260127070488481374
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_8
+  - first:
+      213: 6105600013329297633
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_9
+  - first:
+      213: 8368039433401352252
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_10
+  - first:
+      213: 4897892715384448826
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_11
+  - first:
+      213: 8812974040843673043
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_12
+  - first:
+      213: -9066722080992762259
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_13
+  - first:
+      213: 6625411154741899626
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_14
+  - first:
+      213: 4735185552918584801
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_15
+  - first:
+      213: -3143630278949822377
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_16
+  - first:
+      213: 6290377478947071493
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_17
+  - first:
+      213: -5997561641534099841
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_18
+  - first:
+      213: -4680850455331463436
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_19
+  - first:
+      213: -1652473348731556710
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_20
+  - first:
+      213: -8862145276968433652
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_21
+  - first:
+      213: 6761219571460476711
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_22
+  - first:
+      213: 199120133580271142
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_23
+  - first:
+      213: -3220724700685986188
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_24
+  - first:
+      213: -2202404185097491559
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_25
+  - first:
+      213: -5383050332729126284
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_26
+  - first:
+      213: 1274250886539102535
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_27
+  - first:
+      213: -2585543556496463354
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_28
+  - first:
+      213: -3869035405318512318
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_29
+  - first:
+      213: 5488405345341880490
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_30
+  - first:
+      213: 8769972035711053780
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_31
+  - first:
+      213: 6067253654516297859
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_32
+  - first:
+      213: -3384672948925880295
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_33
+  - first:
+      213: -7640227741289511501
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_34
+  - first:
+      213: -7265223174958661713
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_35
+  - first:
+      213: -8103626016408954330
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_36
+  - first:
+      213: 1931659323751341054
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_37
+  - first:
+      213: -6938809768571819379
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_38
+  - first:
+      213: -8615200338139637908
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_39
+  - first:
+      213: 5205170230855010508
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_40
+  - first:
+      213: -3833540049306546598
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_41
+  - first:
+      213: -21667090666620004
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_42
+  - first:
+      213: 8547343197710530135
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_43
+  - first:
+      213: 6048416481641906121
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_44
+  - first:
+      213: 6535929264736631420
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_45
+  - first:
+      213: -4677425823949368095
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_46
+  - first:
+      213: 1548176794269991019
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_47
+  - first:
+      213: 1380512100343240729
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_48
+  - first:
+      213: 2406399142456670356
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_49
+  - first:
+      213: 5979580696209201971
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_50
+  - first:
+      213: 2069571711468705234
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_51
+  - first:
+      213: 8900991658328227377
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_52
+  - first:
+      213: -5589558660877047660
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_53
+  - first:
+      213: -1543154660104522761
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_54
+  - first:
+      213: 7977205933556895299
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_55
+  - first:
+      213: 7280597001025936432
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_56
+  - first:
+      213: -337796728348676038
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_57
+  - first:
+      213: -2656919405375169737
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_58
+  - first:
+      213: -746375981134314506
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_59
+  - first:
+      213: -3764121267600052729
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_60
+  - first:
+      213: 1192113241715395705
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_61
+  - first:
+      213: -3475680468055526967
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_62
+  - first:
+      213: 4950162844119403505
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_63
+  - first:
+      213: 6019048398654380372
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_64
+  - first:
+      213: -7065781072301569201
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_65
+  - first:
+      213: 3408595642409488075
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_66
+  - first:
+      213: -4734688333994807498
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_67
+  - first:
+      213: -3809618871648147523
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_68
+  - first:
+      213: -4827135996910346845
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_69
+  - first:
+      213: -2685833820774699747
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_70
+  - first:
+      213: -8971468411954343764
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_71
+  - first:
+      213: 459948407833864102
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_72
+  - first:
+      213: 3180700892810566198
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_73
+  - first:
+      213: -1457181001008163157
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_74
+  - first:
+      213: 1613366283358946274
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_75
+  - first:
+      213: -7011857677153925841
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_76
+  - first:
+      213: -7378447504194848256
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_77
+  - first:
+      213: -7694331288415922273
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_78
+  - first:
+      213: -8548150203163460348
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_79
+  - first:
+      213: 3337794732161016890
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_80
+  - first:
+      213: -5015197605970413114
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_81
+  - first:
+      213: -7905405815377066515
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_82
+  - first:
+      213: -8996602892987938559
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_83
+  - first:
+      213: 3923069159266485659
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_84
+  - first:
+      213: 2417649053548258170
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_85
+  - first:
+      213: -6126183263049458159
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_86
+  - first:
+      213: 9089507310253395625
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_87
+  - first:
+      213: 7309896947775455159
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_88
+  - first:
+      213: 5579062155778123936
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_89
+  - first:
+      213: -4118617121667079507
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_90
+  - first:
+      213: 3653123390253812600
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_91
+  - first:
+      213: -429226349284113961
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_92
+  - first:
+      213: -1999821345511295496
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_93
+  - first:
+      213: -8750348001648993915
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_94
+  - first:
+      213: -8982445081130978607
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_95
+  - first:
+      213: 807688109424452152
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_96
+  - first:
+      213: -5854222755751577892
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_97
+  - first:
+      213: -5662184229383232731
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_98
+  - first:
+      213: 5239223527555172229
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_99
+  - first:
+      213: -6967983796768847936
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_100
+  - first:
+      213: -1134119245548046025
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_101
+  - first:
+      213: -7476286517295923298
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_102
+  - first:
+      213: -6292308839012602350
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_103
+  - first:
+      213: 1204421462021988133
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_104
+  - first:
+      213: 5254158197643817314
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_105
+  - first:
+      213: -8739264778356163351
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_106
+  - first:
+      213: 9026810523186616722
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_107
+  - first:
+      213: 3981831175168537992
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_108
+  - first:
+      213: 8409141918631403700
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_109
+  - first:
+      213: 2107608391057929361
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_110
+  - first:
+      213: -5568864707232201030
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_111
+  - first:
+      213: -4451347177213702467
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_112
+  - first:
+      213: -8904970190467088994
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_113
+  - first:
+      213: 1610083328399879534
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_114
+  - first:
+      213: 933836513452497915
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_115
+  - first:
+      213: 5169000520657409697
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_116
+  - first:
+      213: 524095476787315609
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_117
+  - first:
+      213: 7557740870676717971
+    second: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b5b9de377f329c0800000000000000
+      internalID: -3953043970621482223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1e2275f09587600800000000000000
+      internalID: 466220483854131698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 149
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da05ad7eec21dc70800000000000000
+      internalID: 8994019333657397974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 129
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad4ebd674606ab0800000000000000
+      internalID: -5016899523232605625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 149
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6295974069cb6f580800000000000000
+      internalID: -8793633869888136922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_5
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 149
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb51da0df65e76e0800000000000000
+      internalID: -1837935953112376387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 129
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513f2f1b52346d200800000000000000
+      internalID: 204424662270276373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 129
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62608adfbb5eee870800000000000000
+      internalID: 8714154924585780774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 149
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1365b25e8de3b90800000000000000
+      internalID: -7260127070488481374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 149
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0fc1ffcd27bb450800000000000000
+      internalID: 6105600013329297633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c304956678f312470800000000000000
+      internalID: 8368039433401352252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 149
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37a678797fc8f340800000000000000
+      internalID: 4897892715384448826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 129
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddd93f6239fd4a70800000000000000
+      internalID: 8812974040843673043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 149
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d666c3d0e488c2280800000000000000
+      internalID: -9066722080992762259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 129
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a613d41a75032fb50800000000000000
+      internalID: 6625411154741899626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_15
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 149
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed164b1c22c6b140800000000000000
+      internalID: 4735185552918584801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 129
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750a80ebae49f54d0800000000000000
+      internalID: -3143630278949822377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 149
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506e1cf3df8eb4750800000000000000
+      internalID: 6290377478947071493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 129
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ee9d5a67164cca0800000000000000
+      internalID: -5997561641534099841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 129
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe1e33af474a0fb0800000000000000
+      internalID: -4680850455331463436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_20
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 149
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c2e089e3c3119e0800000000000000
+      internalID: -1652473348731556710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_21
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 129
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08046203d5530580800000000000000
+      internalID: -8862145276968433652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 129
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f0255b06da4dd50800000000000000
+      internalID: 6761219571460476711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 149
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e2eadd4ba63c200800000000000000
+      internalID: 199120133580271142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 129
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4761948e2ffad43d0800000000000000
+      internalID: -3220724700685986188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 129
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b2e6fff0d7f61e0800000000000000
+      internalID: -2202404185097491559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472d1a53e309b45b0800000000000000
+      internalID: -5383050332729126284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 109
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749c3e61e6c0fa110800000000000000
+      internalID: 1274250886539102535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 111
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a6abb85dd4e1cd0800000000000000
+      internalID: -2585543556496463354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 110
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241a4924ccc6e4ac0800000000000000
+      internalID: -3869035405318512318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 109
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa83570359bba2c40800000000000000
+      internalID: 5488405345341880490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 110
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfaaa6e91335b970800000000000000
+      internalID: 8769972035711053780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 109
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38072a79d07333450800000000000000
+      internalID: 6067253654516297859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918266eb2e93701d0800000000000000
+      internalID: -3384672948925880295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_34
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b58a55595578f590800000000000000
+      internalID: -7640227741289511501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_35
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf37a2e30ebc2b90800000000000000
+      internalID: -7265223174958661713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a945ba2132a8f80800000000000000
+      internalID: -8103626016408954330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_37
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb154babe1aeca10800000000000000
+      internalID: 1931659323751341054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_38
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a2444674564bf90800000000000000
+      internalID: -6938809768571819379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_39
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c679c5010f8a07880800000000000000
+      internalID: -8615200338139637908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_40
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc80d8d2fba7c3840800000000000000
+      internalID: 5205170230855010508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_41
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e89d8d2a78ccac0800000000000000
+      internalID: -3833540049306546598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bff7555e503bff0800000000000000
+      internalID: -21667090666620004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 89
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75633e04a534e9670800000000000000
+      internalID: 8547343197710530135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_44
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 89
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf32e18eba40f350800000000000000
+      internalID: 6048416481641906121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_45
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7af4b5990944ba50800000000000000
+      internalID: 6535929264736631420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_46
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e45244cef1761fb0800000000000000
+      internalID: -4677425823949368095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_47
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6047ff779a3c7510800000000000000
+      internalID: 1548176794269991019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_48
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9185615e070982310800000000000000
+      internalID: 1380512100343240729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_49
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4983fe9354f356120800000000000000
+      internalID: 2406399142456670356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_50
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b155746fcbbf250800000000000000
+      internalID: 5979580696209201971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_51
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51a4ba18898bc10800000000000000
+      internalID: 2069571711468705234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_52
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e7e57f0cca68b70800000000000000
+      internalID: 8900991658328227377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_53
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498273f3306ed62b0800000000000000
+      internalID: -5589558660877047660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_54
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f33bfa330d959ae0800000000000000
+      internalID: -1543154660104522761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_55
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e0cc1188ab4be60800000000000000
+      internalID: 7977205933556895299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_56
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cdceee560e90560800000000000000
+      internalID: 7280597001025936432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_57
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 74
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30fc705aa7ef4bf0800000000000000
+      internalID: -337796728348676038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_58
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 74
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b55c5b0e9b02bd0800000000000000
+      internalID: -2656919405375169737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_59
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 74
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f30b97eff654a5f0800000000000000
+      internalID: -746375981134314506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 74
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ea43976a723cbc0800000000000000
+      internalID: -3764121267600052729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_61
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 74
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c4c706dac3b8010800000000000000
+      internalID: 1192113241715395705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_62
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 74
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c179cc7707e3cfc0800000000000000
+      internalID: -3475680468055526967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_63
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 74
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb031031e282b440800000000000000
+      internalID: 4950162844119403505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 55
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4599da7d0a4f78350800000000000000
+      internalID: 6019048398654380372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b49c40d8d41fd90800000000000000
+      internalID: -7065781072301569201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_66
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce03c06da3cd4f20800000000000000
+      internalID: 3408595642409488075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_67
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fad02bb020b4eb0800000000000000
+      internalID: -4734688333994807498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_68
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7a9c902d3812bc0800000000000000
+      internalID: -3809618871648147523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_69
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad58a5d261920db0800000000000000
+      internalID: -4827135996910346845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_70
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d6ef2ce500abad0800000000000000
+      internalID: -2685833820774699747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 54
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0d2df1301fe7380800000000000000
+      internalID: -8971468411954343764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_72
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 55
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7a1f7d3a0126600800000000000000
+      internalID: 459948407833864102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_73
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63addb42c9e142c20800000000000000
+      internalID: 3180700892810566198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_74
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6d57d999d07cbe0800000000000000
+      internalID: -1457181001008163157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3c3343614d36610800000000000000
+      internalID: 1613366283358946274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_76
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2505a1d790e0be90800000000000000
+      internalID: -7011857677153925841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_77
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a399e661d7a9990800000000000000
+      internalID: -7378447504194848256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_78
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f979bc1a57e383590800000000000000
+      internalID: -7694331288415922273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_79
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d32c52eaede5980800000000000000
+      internalID: -8548150203163460348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_80
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34a0afdf9a325e20800000000000000
+      internalID: 3337794732161016890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_81
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c97eb95950766ab0800000000000000
+      internalID: -5015197605970413114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_82
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de58429ab4b5a4290800000000000000
+      internalID: -7905405815377066515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_83
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109c33ab555a52380800000000000000
+      internalID: -8996602892987938559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_84
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b958e537d9a817630800000000000000
+      internalID: 3923069159266485659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_85
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73ad4441073d8120800000000000000
+      internalID: 2417649053548258170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_86
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 29
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e5ef8b7cc6bfaa0800000000000000
+      internalID: -6126183263049458159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_87
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 36
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae48fa8dba642e70800000000000000
+      internalID: 9089507310253395625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_88
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 36
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf3ed46b88f17560800000000000000
+      internalID: 7309896947775455159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_89
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8eaf6b87fcc6d40800000000000000
+      internalID: 5579062155778123936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_90
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 29
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da221399c8bb7d6c0800000000000000
+      internalID: -4118617121667079507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_91
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 36
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bcfbc4e5082b230800000000000000
+      internalID: 3653123390253812600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_92
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 36
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1cea2d8e41b0af0800000000000000
+      internalID: -429226349284113961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_93
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53e8ee4153f34e0800000000000000
+      internalID: -1999821345511295496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_94
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58999a49ad4809680800000000000000
+      internalID: -8750348001648993915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_95
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 35
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2bbbc2ac1f75380800000000000000
+      internalID: -8982445081130978607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_96
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 35
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8322d836e0c753b00800000000000000
+      internalID: 807688109424452152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_97
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd63b6fab6f91cea0800000000000000
+      internalID: -5854222755751577892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_98
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5232bc26171eb61b0800000000000000
+      internalID: -5662184229383232731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_99
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5878bca2a0675b840800000000000000
+      internalID: 5239223527555172229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_100
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 35
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c74ae0a7afbc4f90800000000000000
+      internalID: -6967983796768847936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739bc241e8cc240f0800000000000000
+      internalID: -1134119245548046025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fb8890605ee3890800000000000000
+      internalID: -7476286517295923298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_103
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e6a91f27a3da8a0800000000000000
+      internalID: -6292308839012602350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_104
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 8
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f5dab30f6f6b010800000000000000
+      internalID: 1204421462021988133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_105
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26134440b058ae840800000000000000
+      internalID: 5254158197643817314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_106
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec7ff79cf4e7b680800000000000000
+      internalID: -8739264778356163351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299db41485ca54d70800000000000000
+      internalID: 9026810523186616722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_108
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8853f7f6b5e424730800000000000000
+      internalID: 3981831175168537992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_109
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b02fdd750643b470800000000000000
+      internalID: 8409141918631403700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_110
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 8
+        width: 50
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194f3a24aaabf3d10800000000000000
+      internalID: 2107608391057929361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_111
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6073bcd0b67b2b0800000000000000
+      internalID: -5568864707232201030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_112
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe4d3a9353a932c0800000000000000
+      internalID: -4451347177213702467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 39
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d34c5dac03b6480800000000000000
+      internalID: -8904970190467088994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_114
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 8
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dad00b14a285610800000000000000
+      internalID: 1610083328399879534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_115
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb10ae7c57a5fc00800000000000000
+      internalID: 933836513452497915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_116
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a61895469afbb740800000000000000
+      internalID: 5169000520657409697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_117
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 8
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9930c423f06f54700800000000000000
+      internalID: 524095476787315609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hydra Castle Labyrinth Meikyuujou Hydra - Hero_118
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 8
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391232d774d72e860800000000000000
+      internalID: 7557740870676717971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
