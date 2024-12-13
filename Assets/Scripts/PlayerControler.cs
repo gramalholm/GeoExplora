@@ -1,4 +1,7 @@
+using System.Collections;
 using UnityEngine;
+using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -16,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 respawnPoint;
     public GameObject fallDetector;
+
+    private int questõesCertas;
+    private int score;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -62,15 +68,31 @@ public class PlayerMovement : MonoBehaviour
         if (collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
+        }else if(collision.tag == "Finish")
+        {
+            //quando adicionarmos mais níveis, criar um algoritmo para escolher aleatóriamente o level do player
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            respawnPoint = transform.position;
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Respawn")
+        if(collision.gameObject.tag == "Quest") 
         {
-            transform.position = respawnPoint;
+            questõesCertas += 1;
+            score += 20; 
+            Debug.Log(score);
+            Debug.Log(questõesCertas);
         }
+        playerAnimation.SetBool("isDead", false);
+    }
+
+
+    private IEnumerator ResetDeathAnimation()
+    {
+        yield return new WaitForSeconds(0.5f);
+        playerAnimation.SetBool("isDead", false);
     }
 
 }
