@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
 
     private int questõesCertas;
     private int score;
+    private bool isPlayerDead;
+
+    public Text scoreText;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,11 +34,14 @@ public class PlayerMovement : MonoBehaviour
         player = GetComponent<Rigidbody2D>();
         playerAnimation = GetComponent<Animator>();
         respawnPoint = transform.position;
+        scoreText.text = "Placar: " + Scoring.totalScore;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
+        if (isPlayerDead) return;
+
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
         if (direction > 0f)
@@ -71,28 +78,29 @@ public class PlayerMovement : MonoBehaviour
         }else if(collision.tag == "Finish")
         {
             //quando adicionarmos mais níveis, criar um algoritmo para escolher aleatóriamente o level do player
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            respawnPoint = transform.position;
+            if(questõesCertas == 3)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                respawnPoint = transform.position;
+            }
+            
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Quest") 
+        if(collision.gameObject.tag == "Respawn")
+        { 
+            Scoring.totalScore -= 5;
+            transform.position = respawnPoint;
+        }
+
+        if (collision.gameObject.tag == "Quest")
         {
             questõesCertas += 1;
-            score += 20; 
-            Debug.Log(score);
+            Scoring.totalScore += 20;
+            scoreText.text = "Placar: " + Scoring.totalScore;
             Debug.Log(questõesCertas);
         }
-        playerAnimation.SetBool("isDead", false);
     }
-
-
-    private IEnumerator ResetDeathAnimation()
-    {
-        yield return new WaitForSeconds(0.5f);
-        playerAnimation.SetBool("isDead", false);
-    }
-
 }
