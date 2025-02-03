@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Unity.Multiplayer.Center.Common;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -96,8 +97,16 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Quest")
         {
-            questoesCertas += 1;
-            Scoring.totalScore += 20;
+            if(QuestController.rightAnswer == true)
+            {
+                Scoring.totalScore += 20;
+                Scoring.rigthAnswers++;
+            }
+            else
+            {
+                Scoring.totalScore -= 5;
+                Scoring.rigthAnswers--;
+            }
             scoreText.text = "Placar: " + Scoring.totalScore;
             Debug.Log(questoesCertas);
         }

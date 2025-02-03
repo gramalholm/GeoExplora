@@ -9,17 +9,22 @@ public class QuestController : MonoBehaviour
     public GameObject PainelQuestionario;  // Painel da UI
     public TMP_Text TextoQuestionario;  // Texto onde aparecerá a pergunta
     public Button Buttom1Quest, Buttom2Quest, Buttom3Quest;  // Botões das opções
-    public GameObject BlocoQuest;  // O bloco que o jogador toca para ativar a quest (o "gatilho")
+    public GameObject BlocoQuest; // O bloco que o jogador toca para ativar a quest (o "gatilho")
+    public GameObject PainelBackground;  // Painel de fundo para a quest
+    public GameObject PainelQuest;  // Painel da quest
 
     private List<Question> perguntas;  // Lista de perguntas
     private List<Question> perguntasRespondidas;  // Lista para armazenar as perguntas já feitas
     private bool jogadorDentro = false;
+    public static bool rightAnswer = true;
 
     public string nomeArquivoQuestao = "quests1";  // Valor inicial (pode ser alterado dinamicamente)
 
     void Start()
     {
         PainelQuestionario.SetActive(false); // Painel começa invisível
+        PainelBackground.SetActive(false); // Painel de fundo começa invisível
+        PainelQuest.SetActive(false); // Painel da quest começa invisível
         perguntasRespondidas = new List<Question>(); // Lista para armazenar perguntas realizadas
         CarregarPerguntas(nomeArquivoQuestao); // Carrega as perguntas do arquivo JSON
         EmbaralharPerguntas();  // Embaralha as perguntas para começar de forma aleatória
@@ -66,7 +71,6 @@ public class QuestController : MonoBehaviour
         if (perguntas.Count == 0)
         {
             Debug.LogError("Não há perguntas carregadas!");
-            return;
         }
 
         // Se todas as perguntas foram feitas, reorganize e reinicie o ciclo
@@ -77,6 +81,8 @@ public class QuestController : MonoBehaviour
         }
 
         PainelQuestionario.SetActive(true);
+        PainelBackground.SetActive(true);
+        PainelQuest.SetActive(true);
 
         // Seleciona a próxima pergunta não respondida
         Question perguntaAtual = PerguntaNaoRespondida();
@@ -118,18 +124,21 @@ public class QuestController : MonoBehaviour
         if (correta)
         {
             Debug.Log("Resposta correta!");
+            rightAnswer = true;
         }
         else
         {
             Debug.Log("Resposta errada!");
             // Recarrega a cena atual para reiniciar a fase
             ReiniciarFase();
+            rightAnswer = false;
         }
 
         // Adiciona a pergunta à lista de perguntas respondidas
         perguntasRespondidas.Add(PerguntaNaoRespondida());
 
         FecharQuestionario();
+        
     }
 
     void ReiniciarFase()
@@ -144,5 +153,7 @@ public class QuestController : MonoBehaviour
     void FecharQuestionario()
     {
         PainelQuestionario.SetActive(false);
+        PainelBackground.SetActive(false);
+        PainelQuest.SetActive(false);
     }
 }

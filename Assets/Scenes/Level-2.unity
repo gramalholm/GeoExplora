@@ -634,6 +634,8 @@ MonoBehaviour:
   Buttom2Quest: {fileID: 921516693}
   Buttom3Quest: {fileID: 553028436}
   BlocoQuest: {fileID: 0}
+  PainelBackground: {fileID: 0}
+  PainelQuest: {fileID: 0}
   nomeArquivoQuestao: quests3
 --- !u!1001 &224804944
 PrefabInstance:
@@ -3342,6 +3344,8 @@ MonoBehaviour:
   Buttom2Quest: {fileID: 921516693}
   Buttom3Quest: {fileID: 553028436}
   BlocoQuest: {fileID: 0}
+  PainelBackground: {fileID: 0}
+  PainelQuest: {fileID: 0}
   nomeArquivoQuestao: quests3
 --- !u!4 &1741844228 stripped
 Transform:
@@ -4310,12 +4314,15 @@ MonoBehaviour:
   Buttom2Quest: {fileID: 921516693}
   Buttom3Quest: {fileID: 553028436}
   BlocoQuest: {fileID: 0}
+  PainelBackground: {fileID: 0}
+  PainelQuest: {fileID: 0}
   nomeArquivoQuestao: quests3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1594306808}
+  - {fileID: 634864955}
   - {fileID: 971869223}
   - {fileID: 200407847}
   - {fileID: 1186711130}
@@ -4329,6 +4336,5 @@ SceneRoots:
   - {fileID: 224804944}
   - {fileID: 1871052984}
   - {fileID: 1482871421}
-  - {fileID: 634864955}
   - {fileID: 1456825255}
   - {fileID: 209192161}
