@@ -1,0 +1,55 @@
+{
+    "questions": [
+        {
+            "questionText": "Qual é a capital da França?",
+            "options": ["Paris", "Londres", "Roma"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Qual famoso monumento fica em Paris?",
+            "options": ["Estátua da Liberdade", "Torre Eiffel", "Muralha da China"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Quantas Copas do Mundo de futebol a França já ganhou?",
+            "options": ["1", "2", "3"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual desses artistas franceses pintou o quadro 'Impressão, Sol Nascente'?",
+            "options": ["Claude Monet", "Pablo Picasso", "Leonardo da Vinci"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Em qual continente fica a França?",
+            "options": ["Europa", "África", "Ásia"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Que famoso torneio de tênis acontece na França?",
+            "options": ["Wimbledon", "Roland Garros", "US Open"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual é o maior rio da França?",
+            "options": ["Rio Sena", "Rio Loire", "Rio Reno"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual é o famoso prato francês feito com ovos e batatas?",
+            "options": ["Omelete", "Quiche", "Croc Monsieur"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Qual é o nome da moeda usada na França?",
+            "options": ["Franco Francês", "Euro", "Libra"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual é a famosa catedral localizada em Paris?",
+            "options": ["Catedral de Chartres", "Catedral de Notre-Dame", "Catedral de Reims"],
+            "correctIndex": 1
+        }
+    ]
+  }
+  

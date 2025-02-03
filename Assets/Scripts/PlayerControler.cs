@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
-    private int questõesCertas;
+    private int questoesCertas;
     private int score;
     private bool isPlayerDead;
 
@@ -76,8 +76,8 @@ public class PlayerMovement : MonoBehaviour
             transform.position = respawnPoint;
         }else if(collision.tag == "Finish")
         {
-            //quando adicionarmos mais níveis, criar um algoritmo para escolher aleatóriamente o level do player
-            if(questõesCertas == 3)
+            //quando adicionarmos mais nï¿½veis, criar um algoritmo para escolher aleatï¿½riamente o level do player
+            if(questoesCertas == 3)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 respawnPoint = transform.position;
@@ -96,10 +96,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Quest")
         {
-            questõesCertas += 1;
+            questoesCertas += 1;
             Scoring.totalScore += 20;
             scoreText.text = "Placar: " + Scoring.totalScore;
-            Debug.Log(questõesCertas);
+            Debug.Log(questoesCertas);
         }
     }
 }
