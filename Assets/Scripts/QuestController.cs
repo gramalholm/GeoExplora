@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;  // Importa o namespace necessário para manipulação de cenas
+using UnityEngine.SceneManagement;
 
 public class QuestController : MonoBehaviour
 {
@@ -11,14 +11,18 @@ public class QuestController : MonoBehaviour
     public Button Buttom1Quest, Buttom2Quest, Buttom3Quest;  // Botões das opções
     public GameObject BlocoQuest;  // O bloco que o jogador toca para ativar a quest (o "gatilho")
 
-    private List<Question> perguntas;  
-    // Lista de perguntas carregadas
+    private List<Question> perguntas;  // Lista de perguntas
+    private List<Question> perguntasRespondidas;  // Lista para armazenar as perguntas já feitas
     private bool jogadorDentro = false;
+
+    public string nomeArquivoQuestao = "quests1";  // Valor inicial (pode ser alterado dinamicamente)
 
     void Start()
     {
         PainelQuestionario.SetActive(false); // Painel começa invisível
-        CarregarPerguntas(); // Carrega as perguntas do JSON
+        perguntasRespondidas = new List<Question>(); // Lista para armazenar perguntas realizadas
+        CarregarPerguntas(nomeArquivoQuestao); // Carrega as perguntas do arquivo JSON
+        EmbaralharPerguntas();  // Embaralha as perguntas para começar de forma aleatória
     }
 
     void OnTriggerEnter2D(Collider2D outro)
@@ -31,18 +35,29 @@ public class QuestController : MonoBehaviour
         }
     }
 
-    void CarregarPerguntas()
+    void CarregarPerguntas(string nomeArquivo)
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>("quests1"); // Carrega o JSON da pasta Resources
+        TextAsset jsonFile = Resources.Load<TextAsset>(nomeArquivo); // Carrega o JSON da pasta Resources com o nome do arquivo recebido
         if (jsonFile != null)
         {
             QuestionList lista = JsonUtility.FromJson<QuestionList>(jsonFile.text);
-            perguntas = new List<Question>(lista.questions);
+            perguntas = new List<Question>(lista.questions); // Carrega todas as perguntas na lista
         }
         else
         {
             Debug.LogError("Arquivo JSON não encontrado!");
-            perguntas = new List<Question>();
+        }
+    }
+
+    void EmbaralharPerguntas()
+    {
+        // Embaralha a lista de perguntas para garantir que a ordem seja aleatória
+        for (int i = 0; i < perguntas.Count; i++)
+        {
+            Question temp = perguntas[i];
+            int randomIndex = Random.Range(i, perguntas.Count);
+            perguntas[i] = perguntas[randomIndex];
+            perguntas[randomIndex] = temp;
         }
     }
 
@@ -54,17 +69,25 @@ public class QuestController : MonoBehaviour
             return;
         }
 
+        // Se todas as perguntas foram feitas, reorganize e reinicie o ciclo
+        if (perguntasRespondidas.Count == perguntas.Count)
+        {
+            perguntasRespondidas.Clear();
+            EmbaralharPerguntas();  // Reembaralha as perguntas quando todas tiverem sido feitas
+        }
+
         PainelQuestionario.SetActive(true);
-        // Seleciona uma pergunta aleatória
-        Question perguntaAleatoria = perguntas[UnityEngine.Random.Range(0, perguntas.Count)];
+
+        // Seleciona a próxima pergunta não respondida
+        Question perguntaAtual = PerguntaNaoRespondida();
 
         // Exibe o texto da pergunta
-        TextoQuestionario.text = perguntaAleatoria.questionText;
+        TextoQuestionario.text = perguntaAtual.questionText;
 
         // Atribui as opções de resposta aos botões
-        Buttom1Quest.GetComponentInChildren<TMP_Text>().text = perguntaAleatoria.options[0];
-        Buttom2Quest.GetComponentInChildren<TMP_Text>().text = perguntaAleatoria.options[1];
-        Buttom3Quest.GetComponentInChildren<TMP_Text>().text = perguntaAleatoria.options[2];
+        Buttom1Quest.GetComponentInChildren<TMP_Text>().text = perguntaAtual.options[0];
+        Buttom2Quest.GetComponentInChildren<TMP_Text>().text = perguntaAtual.options[1];
+        Buttom3Quest.GetComponentInChildren<TMP_Text>().text = perguntaAtual.options[2];
 
         // Remove eventuais listeners anteriores
         Buttom1Quest.onClick.RemoveAllListeners();
@@ -72,9 +95,22 @@ public class QuestController : MonoBehaviour
         Buttom3Quest.onClick.RemoveAllListeners();
 
         // Adiciona listeners para verificar a resposta correta
-        Buttom1Quest.onClick.AddListener(() => Responder(0 == perguntaAleatoria.correctIndex));
-        Buttom2Quest.onClick.AddListener(() => Responder(1 == perguntaAleatoria.correctIndex));
-        Buttom3Quest.onClick.AddListener(() => Responder(2 == perguntaAleatoria.correctIndex));
+        Buttom1Quest.onClick.AddListener(() => Responder(0 == perguntaAtual.correctIndex));
+        Buttom2Quest.onClick.AddListener(() => Responder(1 == perguntaAtual.correctIndex));
+        Buttom3Quest.onClick.AddListener(() => Responder(2 == perguntaAtual.correctIndex));
+    }
+
+    Question PerguntaNaoRespondida()
+    {
+        // Seleciona a primeira pergunta não respondida
+        foreach (var pergunta in perguntas)
+        {
+            if (!perguntasRespondidas.Contains(pergunta))
+            {
+                return pergunta;
+            }
+        }
+        return null; // Retorna null caso todas as perguntas tenham sido feitas (não esperado)
     }
 
     void Responder(bool correta)
@@ -89,6 +125,9 @@ public class QuestController : MonoBehaviour
             // Recarrega a cena atual para reiniciar a fase
             ReiniciarFase();
         }
+
+        // Adiciona a pergunta à lista de perguntas respondidas
+        perguntasRespondidas.Add(PerguntaNaoRespondida());
 
         FecharQuestionario();
     }

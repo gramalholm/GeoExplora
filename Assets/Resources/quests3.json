@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "questionText": "Qual é a capital dos Estados Unidos?",
+      "options": ["Washington, D.C.", "Nova York", "Los Angeles"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é o maior estado dos Estados Unidos em área?",
+      "options": ["Alaska", "Califórnia", "Texas"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Em que ano os Estados Unidos declararam independência?",
+      "options": ["1776", "1492", "1865"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Quem foi o primeiro presidente dos Estados Unidos?",
+      "options": ["George Washington", "Abraham Lincoln", "Thomas Jefferson"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é a moeda usada nos Estados Unidos?",
+      "options": ["Dólar", "Euro", "Peso"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é o famoso símbolo nacional dos Estados Unidos?",
+      "options": ["A Águia Careca", "Leão", "Elefante"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual desses estados está localizado na costa leste dos Estados Unidos?",
+      "options": ["Flórida", "Califórnia", "Alasca"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é o nome da guerra civil dos Estados Unidos?",
+      "options": ["Guerra de Secessão", "Guerra Fria", "Guerra do Vietnã"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é a famosa estátua localizada no Porto de Nova York?",
+      "options": ["Estátua da Liberdade", "Cristo Redentor", "David"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é o nome do monumento que homenageia os presidentes americanos no estado de Dakota do Sul?",
+      "options": ["Monte Rushmore", "Capitólio", "Cemitério de Arlington"],
+      "correctIndex": 0
+    }
+  ]
+}

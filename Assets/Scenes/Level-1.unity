@@ -127,9 +127,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 240080681}
     m_Modifications:
+    - target: {fileID: -8838518935276965952, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3130958340676826660, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
       propertyPath: m_Name
-      value: "quest\xE3o"
+      value: "quest\xE3o2"
       objectReference: {fileID: 0}
     - target: {fileID: 5084852531703454590, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
       propertyPath: m_LocalPosition.x
@@ -171,10 +175,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5331511409730677387, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3130958340676826660, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 809572217}
   m_SourcePrefab: {fileID: 100100000, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
 --- !u!4 &147274416 stripped
 Transform:
@@ -1107,6 +1115,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &725794559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3130958340676826660, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
+  m_PrefabInstance: {fileID: 1723224553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &809572213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3130958340676826660, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
+  m_PrefabInstance: {fileID: 147274415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &809572217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809572213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a13d56c40f0864daecbae15ed9cc41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PainelQuestionario: {fileID: 236129458}
+  TextoQuestionario: {fileID: 408978238}
+  Buttom1Quest: {fileID: 173999683}
+  Buttom2Quest: {fileID: 950354193}
+  Buttom3Quest: {fileID: 818540329}
+  BlocoQuest: {fileID: 0}
+  nomeArquivoQuestao: quests1
 --- !u!1 &818540327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2418,8 @@ MonoBehaviour:
   Buttom1Quest: {fileID: 173999683}
   Buttom2Quest: {fileID: 950354193}
   Buttom3Quest: {fileID: 818540329}
+  BlocoQuest: {fileID: 0}
+  nomeArquivoQuestao: quests1
 --- !u!4 &1515207674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6267457735662207240, guid: 3615dde29896fa54f8a67e74dcb75185, type: 3}
@@ -2399,9 +2438,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 240080681}
     m_Modifications:
+    - target: {fileID: -8838518935276965952, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3130958340676826660, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
       propertyPath: m_Name
-      value: "quest\xE3o (1)"
+      value: "quest\xE3o1"
       objectReference: {fileID: 0}
     - target: {fileID: 5084852531703454590, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2443,16 +2486,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5331511409730677387, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3130958340676826660, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1723224558}
   m_SourcePrefab: {fileID: 100100000, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
 --- !u!4 &1723224554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5084852531703454590, guid: cd1d4a427743fcd468496f42c0bc6119, type: 3}
   m_PrefabInstance: {fileID: 1723224553}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1723224558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725794559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a13d56c40f0864daecbae15ed9cc41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PainelQuestionario: {fileID: 236129458}
+  TextoQuestionario: {fileID: 408978238}
+  Buttom1Quest: {fileID: 173999683}
+  Buttom2Quest: {fileID: 950354193}
+  Buttom3Quest: {fileID: 818540329}
+  BlocoQuest: {fileID: 0}
+  nomeArquivoQuestao: quests1
 --- !u!4 &1765773789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6267457735662207240, guid: 3615dde29896fa54f8a67e74dcb75185, type: 3}

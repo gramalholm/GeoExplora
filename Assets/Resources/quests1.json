@@ -1,55 +1,54 @@
 {
-    "questions": [
-        {
-            "questionText": "Qual é a capital da França?",
-            "options": ["Paris", "Londres", "Roma"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Qual famoso monumento fica em Paris?",
-            "options": ["Estátua da Liberdade", "Torre Eiffel", "Muralha da China"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Quantas Copas do Mundo de futebol a França já ganhou?",
-            "options": ["1", "2", "3"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual desses artistas franceses pintou o quadro 'Impressão, Sol Nascente'?",
-            "options": ["Claude Monet", "Pablo Picasso", "Leonardo da Vinci"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Em qual continente fica a França?",
-            "options": ["Europa", "África", "Ásia"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Que famoso torneio de tênis acontece na França?",
-            "options": ["Wimbledon", "Roland Garros", "US Open"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual é o maior rio da França?",
-            "options": ["Rio Sena", "Rio Loire", "Rio Reno"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual é o famoso prato francês feito com ovos e batatas?",
-            "options": ["Omelete", "Quiche", "Croc Monsieur"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Qual é o nome da moeda usada na França?",
-            "options": ["Franco Francês", "Euro", "Libra"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual é a famosa catedral localizada em Paris?",
-            "options": ["Catedral de Chartres", "Catedral de Notre-Dame", "Catedral de Reims"],
-            "correctIndex": 1
-        }
-    ]
-  }
-  
+  "questions": [
+      {
+          "questionText": "Qual é a capital do Brasil?",
+          "options": ["Rio de Janeiro", "Brasília", "São Paulo"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Qual é o maior estado do Brasil em termos de área?",
+          "options": ["Amazonas", "Minas Gerais", "São Paulo"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Em qual país o Brasil faz fronteira ao norte?",
+          "options": ["Argentina", "Colômbia", "Venezuela"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Qual é o nome do presidente atual do Brasil (em 2025)?",
+          "options": ["Lula", "Jair Bolsonaro", "Dilma Rousseff"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual é o nome do famoso ponto turístico no Rio de Janeiro, uma estátua de Cristo?",
+          "options": ["Cristo Redentor", "Igreja de São Sebastião", "Pão de Açúcar"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual é o nome do maior rio do Brasil?",
+          "options": ["Rio São Francisco", "Rio Paraná", "Rio Amazonas"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Em qual continente o Brasil está localizado?",
+          "options": ["África", "América do Sul", "América Central"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Qual é o maior bioma brasileiro?",
+          "options": ["Cerrado", "Amazônia", "Mata Atlântica"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Qual é a principal língua falada no Brasil?",
+          "options": ["Espanhol", "Inglês", "Português"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Qual é o famoso festival realizado anualmente no Rio de Janeiro?",
+          "options": ["Carnaval", "Festa Junina", "Festival de Parintins"],
+          "correctIndex": 0
+      }
+  ]
+}
