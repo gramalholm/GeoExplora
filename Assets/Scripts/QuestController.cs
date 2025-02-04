@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class QuestController : MonoBehaviour
 {
+    [SerializeField] AudioClip coinSound;
+    [SerializeField] AudioClip correctSound;
+    [SerializeField] AudioClip wrongSound;
     public GameObject PainelQuestionario;  // Painel da UI
     public TMP_Text TextoQuestionario;  // Texto onde aparecerá a pergunta
     public Button Buttom1Quest, Buttom2Quest, Buttom3Quest;  // Botões das opções
@@ -16,7 +19,7 @@ public class QuestController : MonoBehaviour
     private List<Question> perguntas;  // Lista de perguntas
     private List<Question> perguntasRespondidas;  // Lista para armazenar as perguntas já feitas
     private bool jogadorDentro = false;
-    public static bool rightAnswer = true;
+    public bool rightAnswer = true;
 
     public string nomeArquivoQuestao = "quests1";  // Valor inicial (pode ser alterado dinamicamente)
 
@@ -34,6 +37,7 @@ public class QuestController : MonoBehaviour
     {
         if (outro.CompareTag("Player") && !jogadorDentro)
         {
+            AudioManager.instance.playSFX(coinSound);
             jogadorDentro = true;
             AbrirQuestionario();
             BlocoQuest.SetActive(false);  // Desativa o bloco da quest depois que o jogador interage com ele
@@ -123,22 +127,26 @@ public class QuestController : MonoBehaviour
     {
         if (correta)
         {
+            AudioManager.instance.playSFX(correctSound);
             Debug.Log("Resposta correta!");
-            rightAnswer = true;
+            Scoring.isRightAnswer = true;
+            Scoring.totalScore += 10;
         }
         else
         {
+            AudioManager.instance.playSFX(wrongSound);
             Debug.Log("Resposta errada!");
+            Scoring.isRightAnswer = false;
+            Scoring.wrongAnswers++;
+            Scoring.totalScore -= 5;
             // Recarrega a cena atual para reiniciar a fase
             ReiniciarFase();
-            rightAnswer = false;
         }
 
+        PlayerMovement.instance.VerificarResposta(correta);
         // Adiciona a pergunta à lista de perguntas respondidas
         perguntasRespondidas.Add(PerguntaNaoRespondida());
-
         FecharQuestionario();
-        
     }
 
     void ReiniciarFase()

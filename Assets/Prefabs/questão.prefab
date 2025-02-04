@@ -147,3 +147,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a13d56c40f0864daecbae15ed9cc41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinSound: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
+  correctSound: {fileID: 8300000, guid: abdbbfd33a46f4549987385f85c536b5, type: 3}
+  wrongSound: {fileID: 8300000, guid: 1ed8fb76fc64e4e46847348138782234, type: 3}
+  PainelQuestionario: {fileID: 0}
+  TextoQuestionario: {fileID: 0}
+  Buttom1Quest: {fileID: 0}
+  Buttom2Quest: {fileID: 0}
+  Buttom3Quest: {fileID: 0}
+  BlocoQuest: {fileID: 0}
+  PainelBackground: {fileID: 0}
+  PainelQuest: {fileID: 0}
+  rightAnswer: 1
+  nomeArquivoQuestao: quests1

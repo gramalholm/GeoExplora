@@ -9,6 +9,8 @@ TagManager:
   - FallDetector
   - Espinhos
   - Quest
+  - Audio
+  - End
   layers:
   - Default
   - TransparentFX

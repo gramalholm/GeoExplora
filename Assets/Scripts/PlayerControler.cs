@@ -7,6 +7,8 @@ using Unity.Multiplayer.Center.Common;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] AudioClip jumpSound;
+    [SerializeField] AudioClip walkSound;
     public float speed = 4f;
     public float jumpSpeed = 8f;
     private float direction = 0f;
@@ -22,15 +24,19 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 respawnPoint;
     public GameObject fallDetector;
 
-    private int questoesCertas;
+    private int respostasCorretas = 0;
     private int score;
     private bool isPlayerDead;
+    private bool isMoving = false;
 
     public Text scoreText;
+
+    public static PlayerMovement instance {  get; private set; }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        instance = this;
         player = GetComponent<Rigidbody2D>();
         playerAnimation = GetComponent<Animator>();
         respawnPoint = transform.position;
@@ -44,23 +50,33 @@ public class PlayerMovement : MonoBehaviour
 
         isTouchingGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         direction = Input.GetAxis("Horizontal");
-        if (direction > 0f)
+
+        if (direction != 0f)
         {
             player.linearVelocity = new Vector2(direction * speed, player.linearVelocity.y);
-        }
-        else if (direction < 0f)
-        {
-            player.linearVelocity = new Vector2(direction * speed, player.linearVelocity.y);
-            transform.localScale = new Vector2(-1f, 1f);
+
+            // Só toca o som se ele ainda não estiver tocando
+            if (!isMoving)
+            {
+                AudioManager.instance.playSFX(walkSound);
+                isMoving = true; // Marca que o som começou
+            }
+
+            // Inverte o sprite apenas se a direção mudar
+            if (direction > 0)
+                transform.localScale = new Vector2(1f, 1f);
+            else
+                transform.localScale = new Vector2(-1f, 1f);
         }
         else
         {
             player.linearVelocity = new Vector2(0, player.linearVelocity.y);
-            transform.localScale = new Vector2(1f, 1f);
+            isMoving = false; // Marca que o jogador parou
         }
 
         if (Input.GetButtonDown("Jump") && isTouchingGround)
         {
+            AudioManager.instance.playSFX(jumpSound);
             player.linearVelocity = new Vector2(player.linearVelocity.x, jumpSpeed);
         }
 
@@ -69,46 +85,41 @@ public class PlayerMovement : MonoBehaviour
 
         fallDetector.transform.position = new Vector2(transform.position.x, fallDetector.transform.position.y);
     }
+    public void VerificarResposta(bool correta)
+    {
+        if (correta)
+        {
+            respostasCorretas++;
+            scoreText.text = "Placar: " + Scoring.totalScore;
+        }
+    }
 
+    private void IrParaProximaFase()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Respawn")
+        { 
+            transform.position = respawnPoint;
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "FallDetector")
         {
             transform.position = respawnPoint;
-        }else if(collision.tag == "Finish")
+        }
+        else if (collision.tag == "End")
         {
-            //quando adicionarmos mais n�veis, criar um algoritmo para escolher aleat�riamente o level do player
-            if(questoesCertas == 3)
+            // Passa de fase se tiver 3 respostas corretas
+            if (respostasCorretas >= 3)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                respawnPoint = transform.position;
+               IrParaProximaFase();
+               respawnPoint = transform.position;
             }
-            
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Respawn")
-        { 
-            Scoring.totalScore -= 5;
-            transform.position = respawnPoint;
-        }
-
-        if (collision.gameObject.tag == "Quest")
-        {
-            if(QuestController.rightAnswer == true)
-            {
-                Scoring.totalScore += 20;
-                Scoring.rigthAnswers++;
-            }
-            else
-            {
-                Scoring.totalScore -= 5;
-                Scoring.rigthAnswers--;
-            }
-            scoreText.text = "Placar: " + Scoring.totalScore;
-            Debug.Log(questoesCertas);
-        }
-    }
 }
