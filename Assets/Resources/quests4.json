@@ -1,54 +1,80 @@
 {
   "questions": [
     {
-      "questionText": "Qual é o continente onde o Japão está localizado?",
-      "options": ["Ásia", "Europa", "América"],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual é o oceano que cerca o Japão?",
-      "options": ["Oceano Atlântico", "Oceano Índico", "Oceano Pacífico"],
+      "questionText": "Qual é o maior país da Ásia em área territorial?",
+      "options": [ "China", "Índia", "Rússia" ],
       "correctIndex": 2
     },
     {
-      "questionText": "Quantas ilhas principais formam o Japão?",
-      "options": ["4", "7", "10"],
+      "questionText": "Qual é o país mais populoso da Ásia?",
+      "options": [ "Índia", "China", "Indonésia" ],
       "correctIndex": 0
     },
     {
-      "questionText": "Qual desses animes é japonês?",
-      "options": ["Naruto", "Rick and Morty", "Avatar: The Last Airbender"],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual dessas cidades é japonesa?",
-      "options": ["Pequim", "Tóquio", "Seul"],
+      "questionText": "Qual destes desertos está localizado na Ásia?",
+      "options": [ "Saara", "Deserto de Gobi", "Deserto do Atacama" ],
       "correctIndex": 1
     },
     {
-      "questionText": "Qual desses esportes é tradicional no Japão?",
-      "options": ["Sumô", "Críquete", "Rúgbi"],
+      "questionText": "Qual destes países asiáticos é um arquipélago?",
+      "options": [ "Japão", "Mongólia", "Cazaquistão" ],
       "correctIndex": 0
     },
     {
-      "questionText": "O Japão é famoso por sua produção de qual destes meios de transporte?",
-      "options": ["Carros", "Navios", "Aviões"],
-      "correctIndex": 0
+      "questionText": "Qual é a montanha mais alta da Ásia?",
+      "options": [ "Monte Kilimanjaro", "Monte Everest", "Monte Fuji" ],
+      "correctIndex": 1
     },
     {
-      "questionText": "Qual destes animais é um símbolo da cultura japonesa?",
-      "options": ["Panda", "Guaxinim", "Carpa"],
+      "questionText": "Qual destes rios é o mais longo da Ásia?",
+      "options": [ "Rio Ganges", "Rio Mekong", "Rio Yangtzé" ],
       "correctIndex": 2
     },
     {
-      "questionText": "O Japão é conhecido como 'Terra do ...'?",
-      "options": ["Sol Nascente", "Sol Poente", "Sol Brilhante"],
+      "questionText": "Qual destes países asiáticos tem a maior economia?",
+      "options": [ "Índia", "Japão", "China" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual é a capital da Coreia do Sul?",
+      "options": [ "Seul", "Tóquio", "Pequim" ],
       "correctIndex": 0
     },
     {
-      "questionText": "O que é um 'kimono' no Japão?",
-      "options": ["Uma comida", "Uma vestimenta", "Um tipo de música"],
+      "questionText": "Qual destes países asiáticos não tem litoral?",
+      "options": [ "Tailândia", "Afeganistão", "Filipinas" ],
       "correctIndex": 1
+    },
+    {
+      "questionText": "Qual é a religião predominante na Índia?",
+      "options": [ "Islamismo", "Budismo", "Hinduísmo" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual cidade asiática é famosa pelo maior arranha-céu do mundo, o Burj Khalifa?",
+      "options": [ "Tóquio", "Dubai", "Cingapura" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual destes mares está localizado entre a China e as Filipinas?",
+      "options": [ "Mar Cáspio", "Mar de Java", "Mar do Sul da China" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual destes países faz fronteira com a China?",
+      "options": [ "Vietnã", "Coreia do Sul", "Filipinas" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual destas línguas é a mais falada na Ásia?",
+      "options": [ "Hindi", "Mandarim", "Árabe" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual é a capital da China?",
+      "options": [ "Pequim", "Xangai", "Hong Kong" ],
+      "correctIndex": 0
     }
   ]
+
 }

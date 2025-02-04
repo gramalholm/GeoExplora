@@ -1,55 +1,79 @@
 {
-    "questions": [
-        {
-            "questionText": "Qual é a capital da França?",
-            "options": ["Paris", "Londres", "Roma"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Qual famoso monumento fica em Paris?",
-            "options": ["Estátua da Liberdade", "Torre Eiffel", "Muralha da China"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Quantas Copas do Mundo de futebol a França já ganhou?",
-            "options": ["1", "2", "3"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual desses artistas franceses pintou o quadro 'Impressão, Sol Nascente'?",
-            "options": ["Claude Monet", "Pablo Picasso", "Leonardo da Vinci"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Em qual continente fica a França?",
-            "options": ["Europa", "África", "Ásia"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Que famoso torneio de tênis acontece na França?",
-            "options": ["Wimbledon", "Roland Garros", "US Open"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual é o maior rio da França?",
-            "options": ["Rio Sena", "Rio Loire", "Rio Reno"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual é o famoso prato francês feito com ovos e batatas?",
-            "options": ["Omelete", "Quiche", "Croc Monsieur"],
-            "correctIndex": 0
-        },
-        {
-            "questionText": "Qual é o nome da moeda usada na França?",
-            "options": ["Franco Francês", "Euro", "Libra"],
-            "correctIndex": 1
-        },
-        {
-            "questionText": "Qual é a famosa catedral localizada em Paris?",
-            "options": ["Catedral de Chartres", "Catedral de Notre-Dame", "Catedral de Reims"],
-            "correctIndex": 1
-        }
-    ]
-  }
-  
+  "questions": [
+    {
+      "questionText": "Qual é o maior país da Europa em extensão territorial?",
+      "options": [ "França", "Alemanha", "Rússia" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Quantos países fazem parte da União Europeia em 2025?",
+      "options": [ "27", "30", "32" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é a capital da Alemanha?",
+      "options": [ "Berlim", "Viena", "Amsterdã" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual país europeu é famoso por seus canais e bicicletas?",
+      "options": [ "Dinamarca", "Suécia", "Países Baixos" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual é a montanha mais alta da Europa?",
+      "options": [ "Mont Blanc", "Monte Elbrus", "Matterhorn" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual país europeu abriga a sede da ONU em Genebra?",
+      "options": [ "Bélgica", "Suíça", "Áustria" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual cidade europeia é dividida pelo rio Sena?",
+      "options": [ "Paris", "Londres", "Roma" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual destes países não faz parte da Escandinávia?",
+      "options": [ "Noruega", "Suécia", "Portugal" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual é o menor país da Europa em área?",
+      "options": [ "Mônaco", "Chipre", "Vaticano" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual destes países europeus não usa o Euro como moeda oficial?",
+      "options": [ "Portugal", "Hungria", "Espanha" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual cidade é a sede oficial do Parlamento Europeu?",
+      "options": [ "Bruxelas", "Estrasburgo", "Frankfurt" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual é a cidade mais populosa da Europa?",
+      "options": [ "Moscou", "Londres", "Istambul" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Em qual país está localizado o Coliseu?",
+      "options": [ "França", "Espanha", "Itália" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual oceano banha a costa oeste de Portugal?",
+      "options": [ "Oceano Pacífico", "Oceano Atlântico", "Oceano Índico" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual país europeu foi o berço do movimento Iluminista no século XVIII?",
+      "options": [ "França", "Inglaterra", "Alemanha" ],
+      "correctIndex": 0
+    }
+  ]
+}

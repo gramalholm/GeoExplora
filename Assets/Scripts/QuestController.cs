@@ -156,6 +156,7 @@ Question PerguntaNaoRespondida()
             PlayerPrefs.SetString("ultimaPergunta", perguntaAtual.questionText);
             PlayerPrefs.Save();
         }
+        PlayerMovement.instance.VerificarResposta(correta);
 
         FecharQuestionario();
 }

@@ -111,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = respawnPoint;
         }
-        else if (collision.tag == "End")
+        else if (collision.tag == "Finish")
         {
             // Passa de fase se tiver 3 respostas corretas
             if (respostasCorretas >= 3)
