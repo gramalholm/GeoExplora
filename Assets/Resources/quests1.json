@@ -1,79 +1,80 @@
 {
-  "questions": [
-    {
-      "questionText": "Qual é o maior país da América do Sul em extensão territorial?",
-      "options": [ "Argentina", "Brasil", "Colômbia" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Quantos países fazem parte da América do Sul?",
-      "options": [ "10", "12", "14" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual é a capital da Argentina?",
-      "options": [ "Santiago", "Montevidéu", "Buenos Aires" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Qual país sul-americano tem duas capitais, Sucre e La Paz?",
-      "options": [ "Bolívia", "Equador", "Paraguai" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual desses países da América do Sul não tem saída para o mar?",
-      "options": [ "Uruguai", "Peru", "Paraguai" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Em qual país fica o Deserto do Atacama?",
-      "options": [ "Argentina", "Chile", "Peru" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual país da América do Sul tem o espanhol e o guarani como línguas oficiais?",
-      "options": [ "Paraguai", "Bolívia", "Venezuela" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual país tem o famoso ponto turístico Machu Picciu?",
-      "options": [ "Uruguai", "Suriname", "Peru" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Qual é o nome da cachoeira mais alta do mundo, localizada na Venezuela?",
-      "options": [ "Salto Ángel", "Cataratas do Iguaçu", "Cachoeira do Caracol" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual é o nome do arquipélago disputado entre Argentina e Reino Unido?",
-      "options": [ "Galápagos", "Ilhas Malvinas", "Fernando de Noronha" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual é o rio mais extenso do Brasil?",
-      "options": [ "Rio Amazonas", "Rio São Francisco", "Rio Tocantins" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual foi a primeira capital do Brasil?",
-      "options": [ "Rio de Janeiro", "Salvador", "Brasília" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual é o maior estado brasileiro em área?",
-      "options": [ "Minas Gerais", "Amazonas", "Pará" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual bioma brasileiro é conhecido como a 'caixa d'água do Brasil'?",
-      "options": [ "Pantanal", "Mata Atlântica", "Cerrado" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Qual cidade brasileira recebe o maior número de turistas anualmente?",
-      "options": [ "Rio de Janeiro", "Florianópolis", "Salvador" ],
-      "correctIndex": 0
-    }
-  ]
-}
+    "questions": [
+        {
+            "questionText": "Qual é o maior país da América do Sul em extensão territorial?",
+            "options": ["Argentina", "Brasil", "Colômbia"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Quantos países fazem parte da América do Sul?",
+            "options": ["10", "12", "14"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual é a capital da Argentina?",
+            "options": ["Santiago", "Montevidéu", "Buenos Aires"],
+            "correctIndex": 2
+        },
+        {
+            "questionText": "Qual país sul-americano tem duas capitais, Sucre e La Paz?",
+            "options": ["Bolívia", "Equador", "Paraguai"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Qual desses países da América do Sul não tem saída para o mar?",
+            "options": ["Uruguai", "Peru", "Paraguai"],
+            "correctIndex": 2
+        },
+        {
+            "questionText": "Em qual país fica o Deserto do Atacama?",
+            "options": ["Argentina", "Chile", "Peru"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual país da América do Sul tem o espanhol e o guarani como línguas oficiais?",
+            "options": ["Paraguai", "Bolívia", "Venezuela"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Qual país tem o famoso ponto turístico Machu Picciu?",
+            "options": ["Uruguai", "Suriname", "Peru"],
+            "correctIndex": 2
+        },
+        {
+            "questionText": "Qual é o nome da cachoeira mais alta do mundo, localizada na Venezuela?",
+            "options": ["Salto Ángel", "Cataratas do Iguaçu", "Cachoeira do Caracol"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Qual é o nome do arquipélago disputado entre Argentina e Reino Unido?",
+            "options": ["Galápagos", "Ilhas Malvinas", "Fernando de Noronha"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual é o rio mais extenso do Brasil?",
+            "options": ["Rio Amazonas", "Rio São Francisco", "Rio Tocantins"],
+            "correctIndex": 0
+        },
+        {
+            "questionText": "Qual foi a primeira capital do Brasil?",
+            "options": ["Rio de Janeiro", "Salvador", "Brasília"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual é o maior estado brasileiro em área?",
+            "options": ["Minas Gerais", "Amazonas" ,"Pará"],
+            "correctIndex": 1
+        },
+        {
+            "questionText": "Qual bioma brasileiro é conhecido como a 'caixa d'água do Brasil'?",
+            "options": ["Pantanal", "Mata Atlântica", "Cerrado"],
+            "correctIndex": 2
+        },
+        {
+            "questionText": "Qual cidade brasileira recebe o maior número de turistas anualmente?",
+            "options": ["Rio de Janeiro", "Florianópolis", "Salvador"],
+            "correctIndex": 0
+        }
+    ]
+  }
+  

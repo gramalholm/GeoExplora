@@ -1,5 +1,5 @@
 {
-  questions: [
+  "questions": [
     {
       "questionText": "Em que ano o Brasil declarou sua independência de Portugal?",
       "options": [ "1822", "1889", "1500" ],

@@ -1,79 +1,79 @@
 {
   "questions": [
-    {
-      "questionText": "Qual é o maior país da América do Norte em extensão territorial?",
-      "options": [ "Estados Unidos", "Canadá", "México" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Quantos países compõem a América do Norte?",
-      "options": [ "3", "7", "10" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual é a capital do Canadá?",
-      "options": [ "Toronto", "Ottawa", "Vancouver" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual destes países norte-americanos tem o espanhol como língua oficial?",
-      "options": [ "México", "Estados Unidos", "Canadá" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual oceano está localizado a oeste da América do Norte?",
-      "options": [ "Atlântico", "Índico", "Pacífico" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Qual civilização construiu a cidade de Chichén Itzá, uma das Sete Maravilhas do Mundo Moderno?",
-      "options": [ "Maias", "Astecas", "Olmecas" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual dos países da América do Norte tem mais habitantes?",
-      "options": [ "Canadá", "México", "Estados Unidos" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Qual destas cidades foi a primeira capital dos Estados Unidos?",
-      "options": [ "Nova York", "Filadélfia", "Washington, D.C." ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual é a moeda oficial do Canadá?",
-      "options": [ "Dólar Canadense", "Peso Canadense", "Euro" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual é a capital do México?",
-      "options": [ "Guadalajara", "Cidade do México", "Monterrey" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual foi o primeiro país da América do Norte a se tornar independente?",
-      "options": [ "México", "Canadá", "Estados Unidos" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Qual é o maior lago da América do Norte?",
-      "options": [ "Lago Superior", "Lago Michigan", "Lago Erie" ],
-      "correctIndex": 0
-    },
-    {
-      "questionText": "Qual cidade dos Estados Unidos é conhecida como 'A cidade que nunca dorme'?",
-      "options": [ "Los Angeles", "Las Vegas", "Nova York" ],
-      "correctIndex": 2
-    },
-    {
-      "questionText": "Em qual cidade está localizado o famoso parque temático Disney World?",
-      "options": [ "Los Angeles", "Orlando", "Nova York" ],
-      "correctIndex": 1
-    },
-    {
-      "questionText": "Qual destes países faz fronteira com os Estados Unidos ao sul?",
-      "options": [ "Canadá", "México", "Guatemala" ],
-      "correctIndex": 1
-    }
+      {
+          "questionText": "Qual é o maior país da América do Norte em extensão territorial?",
+          "options": ["Estados Unidos", "Canadá", "México"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Quantos países compõem a América do Norte?",
+          "options": ["3", "7", "10"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual é a capital do Canadá?",
+          "options": ["Toronto", "Ottawa", "Vancouver"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Qual destes países norte-americanos tem o espanhol como língua oficial?",
+          "options": ["México", "Estados Unidos", "Canadá"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual oceano está localizado a oeste da América do Norte?",
+          "options": ["Atlântico", "Índico", "Pacífico"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Qual civilização construiu a cidade de Chichén Itzá, uma das Sete Maravilhas do Mundo Moderno?",
+          "options": ["Maias", "Astecas", "Olmecas"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual dos países da América do Norte tem mais habitantes?",
+          "options": ["Canadá", "México", "Estados Unidos"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Qual destas cidades foi a primeira capital dos Estados Unidos?",
+          "options": ["Nova York", "Filadélfia", "Washington, D.C."],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual é a moeda oficial do Canadá?",
+          "options": ["Dólar Canadense", "Peso Canadense", "Euro"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual é a capital do México?",
+          "options": ["Guadalajara", "Cidade do México", "Monterrey"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Qual foi o primeiro país da América do Norte a se tornar independente?",
+          "options": ["México", "Canadá", "Estados Unidos"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Qual é o maior lago da América do Norte?",
+          "options": ["Lago Superior", "Lago Michigan", "Lago Erie"],
+          "correctIndex": 0
+      },
+      {
+          "questionText": "Qual cidade dos Estados Unidos é conhecida como 'A cidade que nunca dorme'?",
+          "options": ["Los Angeles", "Las Vegas", "Nova York"],
+          "correctIndex": 2
+      },
+      {
+          "questionText": "Em qual cidade está localizado o famoso parque temático Disney World?",
+          "options": ["Los Angeles", "Orlando", "Nova York"],
+          "correctIndex": 1
+      },
+      {
+          "questionText": "Qual destes países faz fronteira com os Estados Unidos ao sul?",
+          "options": ["Canadá", "México", "Guatemala"],
+          "correctIndex": 1
+      }
   ]
 }
