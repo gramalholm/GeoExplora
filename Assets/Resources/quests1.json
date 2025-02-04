@@ -46,7 +46,7 @@
           "correctIndex": 2
       },
       {
-          "questionText": "Qual é o famoso festival realizado anualmente no Rio de Janeiro?",
+          "questionText": "Qual é o famoso festival realizado anualmente no mês de Fevereiro?",
           "options": ["Carnaval", "Festa Junina", "Festival de Parintins"],
           "correctIndex": 0
       }

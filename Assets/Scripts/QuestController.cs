@@ -15,6 +15,7 @@ public class QuestController : MonoBehaviour
     public GameObject BlocoQuest; // O bloco que o jogador toca para ativar a quest (o "gatilho")
     public GameObject PainelBackground;  // Painel de fundo para a quest
     public GameObject PainelQuest;  // Painel da quest
+    private Question perguntaAtual;
 
     private List<Question> perguntas;  // Lista de perguntas
     private List<Question> perguntasRespondidas;  // Lista para armazenar as perguntas já feitas
@@ -70,61 +71,66 @@ public class QuestController : MonoBehaviour
         }
     }
 
-    void AbrirQuestionario()
+Question PerguntaNaoRespondida()
+{
+    // Filtra as perguntas que ainda não foram respondidas
+    List<Question> perguntasNaoRespondidas = perguntas.FindAll(p => !perguntasRespondidas.Contains(p));
+
+    // Se todas as perguntas já foram feitas, retorna null (o que não deveria ocorrer, pois já limpamos antes)
+    if (perguntasNaoRespondidas.Count == 0)
     {
+        return null;
+    }
+
+    // Retorna uma pergunta aleatória entre as não respondidas
+    return perguntasNaoRespondidas[Random.Range(0, perguntasNaoRespondidas.Count)];
+}
+
+    void AbrirQuestionario()
+{
         if (perguntas.Count == 0)
         {
             Debug.LogError("Não há perguntas carregadas!");
+            return;
         }
 
-        // Se todas as perguntas foram feitas, reorganize e reinicie o ciclo
         if (perguntasRespondidas.Count == perguntas.Count)
         {
             perguntasRespondidas.Clear();
-            EmbaralharPerguntas();  // Reembaralha as perguntas quando todas tiverem sido feitas
+            EmbaralharPerguntas();
         }
 
-        PainelQuestionario.SetActive(true);
-        PainelBackground.SetActive(true);
-        PainelQuest.SetActive(true);
+        // Evita repetir a última pergunta feita antes de reiniciar
+        string ultimaPergunta = PlayerPrefs.GetString("ultimaPergunta", "");
+        do
+        {
+            perguntaAtual = PerguntaNaoRespondida();
+        } while (perguntaAtual != null && perguntaAtual.questionText == ultimaPergunta);
 
-        // Seleciona a próxima pergunta não respondida
-        Question perguntaAtual = PerguntaNaoRespondida();
-
-        // Exibe o texto da pergunta
+        // Exibe a pergunta e as opções
         TextoQuestionario.text = perguntaAtual.questionText;
-
-        // Atribui as opções de resposta aos botões
         Buttom1Quest.GetComponentInChildren<TMP_Text>().text = perguntaAtual.options[0];
         Buttom2Quest.GetComponentInChildren<TMP_Text>().text = perguntaAtual.options[1];
         Buttom3Quest.GetComponentInChildren<TMP_Text>().text = perguntaAtual.options[2];
 
-        // Remove eventuais listeners anteriores
         Buttom1Quest.onClick.RemoveAllListeners();
         Buttom2Quest.onClick.RemoveAllListeners();
         Buttom3Quest.onClick.RemoveAllListeners();
 
-        // Adiciona listeners para verificar a resposta correta
         Buttom1Quest.onClick.AddListener(() => Responder(0 == perguntaAtual.correctIndex));
         Buttom2Quest.onClick.AddListener(() => Responder(1 == perguntaAtual.correctIndex));
         Buttom3Quest.onClick.AddListener(() => Responder(2 == perguntaAtual.correctIndex));
-    }
 
-    Question PerguntaNaoRespondida()
-    {
-        // Seleciona a primeira pergunta não respondida
-        foreach (var pergunta in perguntas)
-        {
-            if (!perguntasRespondidas.Contains(pergunta))
-            {
-                return pergunta;
-            }
-        }
-        return null; // Retorna null caso todas as perguntas tenham sido feitas (não esperado)
-    }
+        // Ativa os painéis
+        EnemyPatrol.parado = true;
+        PainelQuestionario.SetActive(true);
+        PainelBackground.SetActive(true);
+        PainelQuest.SetActive(true);
+}
+
 
     void Responder(bool correta)
-    {
+{
         if (correta)
         {
             AudioManager.instance.playSFX(correctSound);
@@ -143,11 +149,18 @@ public class QuestController : MonoBehaviour
             ReiniciarFase();
         }
 
-        PlayerMovement.instance.VerificarResposta(correta);
-        // Adiciona a pergunta à lista de perguntas respondidas
-        perguntasRespondidas.Add(PerguntaNaoRespondida());
+        // Adiciona a pergunta respondida à lista
+        if (perguntaAtual != null)
+        {
+            perguntasRespondidas.Add(perguntaAtual);
+            PlayerPrefs.SetString("ultimaPergunta", perguntaAtual.questionText);
+            PlayerPrefs.Save();
+        }
+
         FecharQuestionario();
-    }
+}
+
+
 
     void ReiniciarFase()
     {
@@ -160,6 +173,7 @@ public class QuestController : MonoBehaviour
 
     void FecharQuestionario()
     {
+        EnemyPatrol.parado = false;
         PainelQuestionario.SetActive(false);
         PainelBackground.SetActive(false);
         PainelQuest.SetActive(false);

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "questionText": "Qual é o continente onde o Japão está localizado?",
+      "options": ["Ásia", "Europa", "América"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é o oceano que cerca o Japão?",
+      "options": ["Oceano Atlântico", "Oceano Índico", "Oceano Pacífico"],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Quantas ilhas principais formam o Japão?",
+      "options": ["4", "7", "10"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual desses animes é japonês?",
+      "options": ["Naruto", "Rick and Morty", "Avatar: The Last Airbender"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual dessas cidades é japonesa?",
+      "options": ["Pequim", "Tóquio", "Seul"],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual desses esportes é tradicional no Japão?",
+      "options": ["Sumô", "Críquete", "Rúgbi"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "O Japão é famoso por sua produção de qual destes meios de transporte?",
+      "options": ["Carros", "Navios", "Aviões"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual destes animais é um símbolo da cultura japonesa?",
+      "options": ["Panda", "Guaxinim", "Carpa"],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "O Japão é conhecido como 'Terra do ...'?",
+      "options": ["Sol Nascente", "Sol Poente", "Sol Brilhante"],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "O que é um 'kimono' no Japão?",
+      "options": ["Uma comida", "Uma vestimenta", "Um tipo de música"],
+      "correctIndex": 1
+    }
+  ]
+}
