@@ -682,7 +682,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0653456, y: 1.47007, z: -10}
+  m_LocalPosition: {x: -0.463845, y: 1.4705399, z: -10}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1169,7 +1169,7 @@ MonoBehaviour:
   PainelBackground: {fileID: 1453200034}
   PainelQuest: {fileID: 1227486705}
   rightAnswer: 1
-  nomeArquivoQuestao: quests1
+  nomeArquivoQuestao: quests5
 --- !u!1001 &814504723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2385,7 +2385,7 @@ MonoBehaviour:
   PainelBackground: {fileID: 1453200034}
   PainelQuest: {fileID: 1227486705}
   rightAnswer: 1
-  nomeArquivoQuestao: quests1
+  nomeArquivoQuestao: quests5
 --- !u!1 &1453200034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,7 +2555,7 @@ MonoBehaviour:
   PainelBackground: {fileID: 1453200034}
   PainelQuest: {fileID: 1227486705}
   rightAnswer: 1
-  nomeArquivoQuestao: quests1
+  nomeArquivoQuestao: quests5
 --- !u!1 &1841999926
 GameObject:
   m_ObjectHideFlags: 0

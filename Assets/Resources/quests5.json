@@ -1,0 +1,79 @@
+{
+  questions: [
+    {
+      "questionText": "Em que ano o Brasil declarou sua independência de Portugal?",
+      "options": [ "1822", "1889", "1500" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Quem foi o primeiro presidente do Brasil?",
+      "options": [ "Getúlio Vargas", "Juscelino Kubitschek", "Deodoro da Fonseca" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual cidade foi a primeira capital do Brasil?",
+      "options": [ "Salvador", "Rio de Janeiro", "Brasília" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual é o maior estado do Brasil em extensão territorial?",
+      "options": [ "Mato Grosso", "Amazonas", "Pará" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual é o rio mais extenso do Brasil?",
+      "options": [ "Rio Amazonas", "Rio São Francisco", "Rio Paraná" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual destes eventos históricos ocorreu em 1888?",
+      "options": [ "Independência do Brasil", "Proclamação da República", "Abolição da escravatura" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Quem foi o líder da Inconfidência Mineira?",
+      "options": [ "José Bonifácio", "Tiradentes", "Duque de Caxias" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Quem foi o presidente do Brasil durante a construção de Brasília?",
+      "options": [ "Juscelino Kubitschek", "João Goulart", "Fernando Henrique Cardoso" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual destes estados brasileiros não faz parte da região Nordeste?",
+      "options": [ "Maranhão", "Espírito Santo", "Pernambuco" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual é o clima predominante na região Centro-Oeste do Brasil?",
+      "options": [ "Tropical", "Semiárido", "Equatorial" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Qual destes estados brasileiros não faz fronteira com nenhum outro país?",
+      "options": [ "Acre", "Maranhão", "Rondônia" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual destes movimentos artísticos foi influenciado pela Semana de Arte Moderna de 1922?",
+      "options": [ "Barroco", "Modernismo", "Romantismo" ],
+      "correctIndex": 1
+    },
+    {
+      "questionText": "Qual destas cidades brasileiras é conhecida como a 'Veneza Brasileira'?",
+      "options": [ "Salvador", "Belém", "Recife" ],
+      "correctIndex": 2
+    },
+    {
+      "questionText": "Qual o nome do tratado que definiu a divisão do território entre Portugal e Espanha no Brasil?",
+      "options": [ "Tratado de Tordesilhas", "Tratado de Petrópolis", "Tratado de Madrid" ],
+      "correctIndex": 0
+    },
+    {
+      "questionText": "Quem foi a primeira mulher(e única) a assumir a presidência do Brasil?",
+      "options": [ "Dilma Rousseff", "Marina Silva", "Luiza Erundina" ],
+      "correctIndex": 0
+    }
+  ]
+}
